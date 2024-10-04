@@ -1,0 +1,10 @@
+# jitpack.yml
+
+jdk:
+  - openjdk11
+
+install:
+  - ./gradlew clean assembleRelease  # Build the project
+
+script:
+  - ./gradlew publish
